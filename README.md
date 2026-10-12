@@ -27,3 +27,7 @@ Author: clevjhon (oeneye@proton.me)
 - **cURL**: libcurl3-gnutls 7.47.0-1ubuntu2.19 - no source fetch, build died before curl
 - **CHECKSUM**: SHA256 5b35c47516499f82bc23dd85d4146c8b04b9e4dd06141fc73d379817893f234 / MD5 66ecd534dc947e0b04d56e07c950583
 - **Root**: snapd.socket missing in lp-xenial-s390x
+
+## PPA - sandbox-ppa
+PPA: https://launchpad.net/~oeneye/+archive/ubuntu/sandbox-ppa
+Purpose: reproduce Xenial snap builder environment for Bug #2170612
