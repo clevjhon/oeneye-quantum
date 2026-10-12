@@ -1,0 +1,33 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: info: source package oeneye-forensics
+dpkg-buildpackage: info: source version 1.0-1~xenial1
+dpkg-buildpackage: info: source distribution xenial
+dpkg-buildpackage: info: source changed by Kai KETELHUT (oeneye) <oeneye@launchpad>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_clean
+dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ dpkg-source -b .
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: native package version may not have a revision
+dpkg-source: info: using source format '1.0'
+dpkg-source: info: building oeneye-forensics in oeneye-forensics_1.0-1~xenial1.tar.gz
+dpkg-source: info: building oeneye-forensics in oeneye-forensics_1.0-1~xenial1.dsc
+ dpkg-genbuildinfo --build=source -O../oeneye-forensics_1.0-1~xenial1_source.buildinfo
+ dpkg-genchanges -sa --build=source -O../oeneye-forensics_1.0-1~xenial1_source.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: source-only upload: Debian-native package
+Now running lintian oeneye-forensics_1.0-1~xenial1_source.changes ...
+running with root privileges is not recommended!
+E: oeneye-forensics source: bogus-mail-host Maintainer oeneye@launchpad
+E: oeneye-forensics changes: bogus-mail-host Changed-By oeneye@launchpad
+E: oeneye-forensics changes: bogus-mail-host Maintainer oeneye@launchpad
+E: oeneye-forensics source: malformed-debian-changelog-version 1.0-1~xenial1 (for native) [debian/changelog:1]
+W: oeneye-forensics source: debhelper-but-no-misc-depends oeneye-forensics
+W: oeneye-forensics source: missing-debian-source-format
+W: oeneye-forensics source: no-debian-copyright-in-source
+W: oeneye-forensics source: package-uses-deprecated-debhelper-compat-version 9
+Finished running lintian.

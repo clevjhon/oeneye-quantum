@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 13 Oct 2026 20:00:00 +0200
+Source: oeneye-forensics
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0-1~xenial1
+Distribution: xenial
+Urgency: low
+Maintainer: Kai KETELHUT (oeneye) <oeneye@launchpad>
+Changed-By: Kai KETELHUT (oeneye) <oeneye@launchpad>
+Changes:
+ oeneye-forensics (1.0-1~xenial1) xenial; urgency=low
+ .
+     * Forensic upload for LP Bug #2170612 - snapd.socket missing in lp-xenial-s390x
+     * cURL 7.47.0 verified, SHA256 5b35c47516499f82bc23dd85d4146c8b04b9e4dd06141fc73d379817893f234
+Checksums-Sha1:
+ b92a6a038ea3673cd1c6bbca803af610b18bb7d2 582 oeneye-forensics_1.0-1~xenial1.dsc
+ 3eb94241832bb197a0a5a72893f7d3d6ef8d2a6c 784 oeneye-forensics_1.0-1~xenial1.tar.gz
+ d992889584d136dca36da2c384a445327252ace8 5905 oeneye-forensics_1.0-1~xenial1_source.buildinfo
+Checksums-Sha256:
+ 86e42d601c5fd295ca3d067f40947a9b086e961e39f96b59eefc195fe8691043 582 oeneye-forensics_1.0-1~xenial1.dsc
+ 8c7166f9a0a77fb17297c8abe716f63ed49a5f6b572ab1c6164770f4cd043b54 784 oeneye-forensics_1.0-1~xenial1.tar.gz
+ 66e628e4c038c149e9786fc711740ee43ae9dc9f85e7fd04ccbd3a3cd83d77af 5905 oeneye-forensics_1.0-1~xenial1_source.buildinfo
+Files:
+ 95c194c92518cdf5db8519ec6b686a39 582 utils optional oeneye-forensics_1.0-1~xenial1.dsc
+ 6674658865ae0c95406302034cde0892 784 utils optional oeneye-forensics_1.0-1~xenial1.tar.gz
+ bed143e9ace59d25578def0d0af6fe05 5905 utils optional oeneye-forensics_1.0-1~xenial1_source.buildinfo
