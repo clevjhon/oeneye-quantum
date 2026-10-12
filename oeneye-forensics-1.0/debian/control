@@ -1,0 +1,10 @@
+Source: oeneye-forensics
+Section: utils
+Priority: optional
+Maintainer: Kai KETELHUT (oeneye) <oeneye@launchpad>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Package: oeneye-forensics
+Architecture: all
+Description: Forensic docs for LP Bug #2170612
+ Contains cURL 7.47.0 verification and SHA256 checksums.
