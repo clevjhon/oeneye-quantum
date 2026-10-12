@@ -1,14 +1,19 @@
 # oeneye-quantum 🐱⚛️
-### ORNOP Cat Suite - Quantum / Classical Gates
 
-`ornop.qasm` = OR + NOP gate
+### ORNOP Cat Suite - Quantum Classical Gates
+![Cat Diagram](cat-diagram.png)
+![Logo](logo.png)
+
+**ornop.qasm** = OR + NOP
 - OR: `a,b -> a v b`
-- NOP: no-op but phase-tracked
+- NOP: phase-tracked no-op
+- Cat: |ψ⟩ = α|alive⟩ + β|dead⟩
 
-Superposition:
-|ψ⟩ = α|alive⟩ + β|dead⟩
-
-Qubit: |q⟩ = cos(θ/2)|0⟩ + e^iφ sin(θ/2)|1⟩
-
-Built from Termux + Ubuntu proot on Android.
+Built entirely on Android - Termux + Ubuntu proot
 Author: clevjhon (oeneye@proton.me)
+
+## Files
+- `ornop.qasm` - ORNOP gate
+- `omq.qasm` - OR + Measurement + Qubit cat
+- `cat-diagram.png` - superposition diagram
+- `logo.png` - qubit cat logo
